@@ -20,3 +20,5 @@ Cloudflare token needs:
 - Zone / Dynamic Redirect / Edit
 - Zone / Page Rules / Edit
 - Zone / DNS / Edit
+
+- Zone / Web3 Hostnames / Edit

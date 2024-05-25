@@ -5,3 +5,7 @@ variable "account_id" {
 variable "domain" {
   type = string
 }
+
+variable "redirect_target" {
+  type = string
+}
