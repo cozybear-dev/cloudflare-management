@@ -18,5 +18,5 @@ module "web3_hostname" {
 
   subdomain         = "tornadocash"
   web3_gateway_type = "ipfs"
-  dnslink           = "/ipfs/bafybeiguelxw5aanwnhvaea5vjhknmcdmwvujne36wgabnkmcbt3563toa"
+  dnslink           = "/ipfs/bafybeieffnocaq7t4w4daagvydl32igft5oziyyaebqr6vx6rb3fwh2ab4"
 }
