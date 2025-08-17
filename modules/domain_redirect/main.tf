@@ -29,12 +29,12 @@ resource "cloudflare_ruleset" "single_redirect" {
       from_value {
         status_code = 301
         target_url {
-          value = "https://shadowbrokers.eu"
+          value = var.redirect_target
         }
         preserve_query_string = true
       }
     }
-    expression = "(http.host contains \"${var.domain}\")"
+    expression  = "(http.host contains \"${var.domain}\")"
     description = "Redirect to EU"
     enabled     = true
   }
